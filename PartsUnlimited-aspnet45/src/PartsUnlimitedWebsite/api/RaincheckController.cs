@@ -10,7 +10,11 @@ namespace PartsUnlimited.Api
     public class RaincheckController : ApiController
     {
         private readonly IRaincheckQuery _query;
-
+//just added comment to commit and see how it looks
+public RaincheckController1(IRaincheckQuery query)
+        {
+            _query = query;
+        }
         public RaincheckController(IRaincheckQuery query)
         {
             _query = query;
